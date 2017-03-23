@@ -210,4 +210,14 @@ public class AzureBlueprintSteps {
     public void iClickOnFilter() throws Throwable {
         AzureBlueprintViews.ClickOnFilter();
     }
+
+    @And("^I hit on ConfigVms$")
+    public void iHitOnConfigVms() throws Throwable {
+       AzureBlueprintViews.HitOnConfigVms();
+    }
+
+    @And("^I click on Submit option$")
+    public void iClickOnSubmitOption() throws Throwable {
+      AzureBlueprintViews.ClickOnSubmit();
+    }
 }

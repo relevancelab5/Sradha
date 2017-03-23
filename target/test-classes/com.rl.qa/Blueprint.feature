@@ -9,18 +9,18 @@ Feature:As a user design a SoftwareTrack Blueprint
     And I click on the "DESIGN" link
     And I click "New" link
     And I click on "JAVA" template
-#    And I click on "Provider parameters" link
-#    And I select "<OS>" in select os select box
-#    And I select "<Provider>" in provider select box
-#    And I select "<Image>" in available image select box
-#    And I select "<Region>" in select region select box
-#    And I select "<vpc>" in vpc select box
-#    And I select "<Subnet>"
-#    And I select "<KeyPair>" in  key pair select box
-#    And I select "<Instance>" in instane type  select box
-#    And I select "<InstanceLunch>" select box
-#    And I select "<SecurityGroup>" option
-#    And I check the domain name radio button
+    And I click on "Provider parameters" link
+    And I select "<OS>" in select os select box
+    And I select "<Provider>" in provider select box
+    And I select "<Image>" in available image select box
+    And I select "<Region>" in select region select box
+    And I select "<vpc>" in vpc select box
+    And I select "<Subnet>"
+    And I select "<KeyPair>" in  key pair select box
+    And I select "<Instance>" in instane type  select box
+    And I select "<InstanceLunch>" select box
+    And I select "<SecurityGroup>" option
+    And I check the domain name radio button
     And I click on the "Blueprint name And Organisation" opt
     And I enter "<BluePrintname>" in "Blueprint Name" textbox
     And I select "<Organisation>" in organisation select box

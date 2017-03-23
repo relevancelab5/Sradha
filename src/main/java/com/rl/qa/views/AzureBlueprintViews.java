@@ -216,8 +216,8 @@ public class AzureBlueprintViews {
     public static void ClickOnARMV1() {
         try{
 
-            SeleniumUtil.waitForElementIsClickable("xpath",".//*[@id='content']/div/form/div[1]/div[3]",8,  SeleniumUtilities.OBJWAITTIMEOUT);
-            SeleniumUtil.click("xpath",".//*[@id='content']/div/form/div[1]/div[3]",SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementIsClickable("xpath",".//*[@id='content']/div/form/div[1]/div",8,  SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath",".//*[@id='content']/div/form/div[1]/div",SeleniumUtilities.OBJWAITTIMEOUT);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOnARMV1");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -308,8 +308,8 @@ public class AzureBlueprintViews {
 
     public static void SelectProvider(String Provider) {
         try{
-            SeleniumUtil.waitForElementPresent("name", "providerId");
-            SeleniumUtil.selectByVisibleText("name","providerId",Provider,SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementPresent("xpath", ".//*[@name='providerId']");
+            SeleniumUtil.selectByVisibleText("xpath",".//*[@name='providerId']",Provider,SeleniumUtilities.OBJWAITTIMEOUT);
         }
         catch (Exception ex){
             BaseView.takeScreenshot("SelectProvider");
@@ -322,8 +322,8 @@ public class AzureBlueprintViews {
 
     public static void EnterUserName(String AdminUsername) {
         try{
-            SeleniumUtil.waitForElementPresent("xpath", "(.//*[@class='form-control ng-pristine ng-scope ng-invalid ng-invalid-required ng-touched'][@name='resource'])[1]");
-            SeleniumUtil.type("xpath","(.//*[@class='form-control ng-pristine ng-scope ng-invalid ng-invalid-required ng-touched'][@name='resource'])[1]",AdminUsername,SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementPresent("xpath", ".//*[@id='content']/div/form/div[2]/div[2]/accordion/div/div[2]/div[2]/div/div[3]/input");
+            SeleniumUtil.type("xpath",".//*[@id='content']/div/form/div[2]/div[2]/accordion/div/div[2]/div[2]/div/div[3]/input",AdminUsername,SeleniumUtilities.OBJWAITTIMEOUT);
         } catch (Exception ex) {
             BaseView.takeScreenshot("EnterAdminUsername");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -335,8 +335,8 @@ public class AzureBlueprintViews {
 
     public static void EnterDNSLebel(String DnsLebel) {
         try{
-            SeleniumUtil.waitForElementPresent("xpath", "(.//*[@class='form-control ng-pristine ng-scope ng-invalid ng-invalid-required ng-touched'][@name='resource'])[3]");
-            SeleniumUtil.type("css","(.//*[@class='form-control ng-pristine ng-scope ng-invalid ng-invalid-required ng-touched'][@name='resource'])[3]",DnsLebel,SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementPresent("xpath", ".//*[@id='content']/div/form/div[2]/div[2]/accordion/div/div[2]/div[2]/div/div[5]/input");
+            SeleniumUtil.type("xpath",".//*[@id='content']/div/form/div[2]/div[2]/accordion/div/div[2]/div[2]/div/div[5]/input",DnsLebel,SeleniumUtilities.OBJWAITTIMEOUT);
         } catch (Exception ex) {
             BaseView.takeScreenshot("EnterDnsLebel");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -348,8 +348,8 @@ public class AzureBlueprintViews {
 
     public static void SelectResourceGroup(String ResourceGroup) {
         try{
-            SeleniumUtil.waitForElementPresent("name", "resourceGroup");
-            SeleniumUtil.selectByVisibleText("name","resourceGroup",ResourceGroup,SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementPresent("xpath", ".//*[@name='resourceGroup']");
+            SeleniumUtil.selectByVisibleText("xpath",".//*[@name='resourceGroup']",ResourceGroup,SeleniumUtilities.OBJWAITTIMEOUT);
         }
         catch (Exception ex){
             BaseView.takeScreenshot("SelectResourceGroup");
@@ -365,8 +365,8 @@ public class AzureBlueprintViews {
 
     public static void SelectOSVersion(String OsVersion) {
         try{
-            SeleniumUtil.waitForElementPresent("xpath", ".//*[@class='width-100 form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required']");
-            SeleniumUtil.selectByVisibleText("name",".//*[@class='width-100 form-control ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required']",OsVersion,SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementPresent("xpath", ".//*[@id='content']/div/form/div[2]/div[2]/accordion/div/div[2]/div[2]/div/div[6]/select");
+            SeleniumUtil.selectByVisibleText("xpath",".//*[@id='content']/div/form/div[2]/div[2]/accordion/div/div[2]/div[2]/div/div[6]/select",OsVersion,SeleniumUtilities.OBJWAITTIMEOUT);
         }
         catch (Exception ex){
             BaseView.takeScreenshot("SelectOsVersion");
@@ -380,8 +380,8 @@ public class AzureBlueprintViews {
     public static void ClickOnSave() {
         try{
 
-            SeleniumUtil.waitForElementIsClickable("xpath",".//*[text()='Save']",8,  SeleniumUtilities.OBJWAITTIMEOUT);
-            SeleniumUtil.click("xpath",".//*[text()='Save']",SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementIsClickable("xpath",".//*[@id='rightPanel']/div/div[2]/button[3]",8,  SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath",".//*[@id='rightPanel']/div/div[2]/button[3]",SeleniumUtilities.OBJWAITTIMEOUT);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOnSave");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -391,8 +391,8 @@ public class AzureBlueprintViews {
 
     public static void EnterAdminPwd(String AdminPwd) {
         try{
-            SeleniumUtil.waitForElementPresent("xpath", "(.//*[@class='form-control ng-pristine ng-scope ng-invalid ng-invalid-required ng-touched'][@name='resource'])[2]");
-            SeleniumUtil.type("xpath","(.//*[@class='form-control ng-pristine ng-scope ng-invalid ng-invalid-required ng-touched'][@name='resource'])[2]",AdminPwd,SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementPresent("xpath", ".//*[@id='content']/div/form/div[2]/div[2]/accordion/div/div[2]/div[2]/div/div[4]/input");
+            SeleniumUtil.type("xpath",".//*[@id='content']/div/form/div[2]/div[2]/accordion/div/div[2]/div[2]/div/div[4]/input",AdminPwd,SeleniumUtilities.OBJWAITTIMEOUT);
         } catch (Exception ex) {
             BaseView.takeScreenshot("EnterAdminPwd");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -458,7 +458,8 @@ public class AzureBlueprintViews {
     }
 
     public static void ClickOnFilter()
-    { try{
+    {
+        try{
 
         SeleniumUtil.waitForElementIsClickable("xpath",".//*[@class='btn btn-xs cat-btn-update ng-scope pull-right margin-left6'][contains(@title,'Filter')]",8,  SeleniumUtilities.OBJWAITTIMEOUT);
         SeleniumUtil.click("xpath",".//*[@class='btn btn-xs cat-btn-update ng-scope pull-right margin-left6'][contains(@title,'Filter')]",SeleniumUtilities.OBJWAITTIMEOUT);
@@ -469,5 +470,31 @@ public class AzureBlueprintViews {
         SeleniumUtil.Log.info("Error :" + ex.getMessage());
         fail(ex.getMessage());
     }
+    }
+
+    public static void HitOnConfigVms() {
+        try {
+
+            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[text()='Configure VMs']", 8, SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath", ".//*[text()='Configure VMs']", SeleniumUtilities.OBJWAITTIMEOUT);
+
+        } catch (Exception ex) {
+            BaseView.takeScreenshot("HitOnConfigVms");
+            SeleniumUtil.Log.info("Error :" + ex.getMessage());
+            fail(ex.getMessage());
+        }
+    }
+
+    public static void ClickOnSubmit() {
+        try{
+
+            SeleniumUtil.waitForElementIsClickable("xpath",".//*[@class='btn ng-class:modalOptions.actionButtonStyle ng-binding cat-btn-update']",8,  SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath",".//*[@class='btn ng-class:modalOptions.actionButtonStyle ng-binding cat-btn-update']",SeleniumUtilities.OBJWAITTIMEOUT);
+            Thread.sleep(6000);
+        } catch (Exception ex) {
+            BaseView.takeScreenshot("ClickOnSubmit");
+            SeleniumUtil.Log.info("Error :" + ex.getMessage());
+            fail(ex.getMessage());
+        }
     }
 }

@@ -436,7 +436,7 @@ public class AzureBlueprintViews {
 
             SeleniumUtil.waitForElementIsClickable("xpath",".//*[@id='design']",8,  SeleniumUtilities.OBJWAITTIMEOUT);
             SeleniumUtil.click("xpath",".//*[@id='design']",SeleniumUtilities.OBJWAITTIMEOUT);
-            Thread.sleep(8000);
+            //Thread.sleep(2000);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOndesign");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -447,9 +447,9 @@ public class AzureBlueprintViews {
     public static void ClickOnmenu() {
         try{
 
-            SeleniumUtil.waitForElementIsClickable("xpath",".//*[@class='cursor']",8,  SeleniumUtilities.OBJWAITTIMEOUT);
-            SeleniumUtil.click("xpath",".//*[@class='cursor']",SeleniumUtilities.OBJWAITTIMEOUT);
-            Thread.sleep(4000);
+            SeleniumUtil.waitForElementIsClickable("xpath",".//*[@id='section-name']/span",8,  SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath",".//*[@id='section-name']/span",SeleniumUtilities.OBJWAITTIMEOUT);
+            Thread.sleep(2000);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOnmenu");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());

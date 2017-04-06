@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {
-                "src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature",
+
+                "src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature"
         },
         tags={"@mouse"},
         glue={"com.rl.qa"},

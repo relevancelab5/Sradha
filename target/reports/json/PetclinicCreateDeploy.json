@@ -1,0 +1,721 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 58,
+        "name": ": First create ,launch and deploy petclinic",
+        "description": "",
+        "id": "as-a-user-create,launch-and-deploy-petclinic;:-first-create-,launch-and-deploy-petclinic;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40394908863,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Login to catalyst using \"http:neocatalyst.rlcatalyst.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http:neocatalyst.rlcatalyst.com/",
+                  "offset": 27
+                }
+              ],
+              "location": "BlueprintSteps.i_Login_to_catalyst_using(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30331900270,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter  \"superadmin\" on User name text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "superadmin",
+                  "offset": 10
+                }
+              ],
+              "location": "BlueprintSteps.iEnterOnUserNameTextBox(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30684167780,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"superadmin@123\"  on Password testbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "superadmin@123",
+                  "offset": 9
+                }
+              ],
+              "location": "BlueprintSteps.iEnterOnPasswordTestbox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3319477909,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login button",
+            "match": {
+              "location": "BlueprintSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21521747287,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on BOTS",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnBOTS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47175767355,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"Build_Petclinic_Nexus\" in searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build_Petclinic_Nexus",
+                  "offset": 9
+                }
+              ],
+              "location": "PetclinicCreateDeploySteps.iEnterInSearchbox(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1248186867,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Execute",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnExecute()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15669300574,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#     And I enter \"\u003cvalue\u003e\" in edit parameter"
+              }
+            ],
+            "line": 12,
+            "name": "I Click on the ok button",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnTheOkButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4480886794,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the close",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnTheClose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2907342396,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on \"WORKZONE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WORKZONE",
+                  "offset": 12
+                }
+              ],
+              "location": "BlueprintSteps.iClickOn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 802375200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I move the cursor on \"Menu\" optn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Menu",
+                  "offset": 22
+                }
+              ],
+              "location": "AppDeloySteps.iMoveTheCursorOnOptn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50398616625,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on RL_Customer",
+            "match": {
+              "location": "AppDeloySteps.i_click_on_RL_Customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483710764,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Applications",
+            "match": {
+              "location": "AppDeloySteps.i_click_on_Applications()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 471580894,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Infrastructure",
+            "match": {
+              "location": "AppDeloySteps.i_click_on_Infrastructure()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 681001348,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Blueprint option",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnBlueprintOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48894695555,
+              "error_message": "java.lang.AssertionError: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id\u003d\u0027blueprintPage\u0027]/div/div[2]/div[2]/accordion/div/div[1]/div/div[2]/div/div[55]/div/div[2]/div[1]/span\"}\nCommand duration or timeout: 40.08 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027sse0051-GA-78LMT-S2\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.4.0-66-generic\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d35.0, platform\u003dLINUX, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 848aa20e-b630-4dd8-9d5e-11666390b9d8\n*** Element info: {Using\u003dxpath, value\u003d.//*[@id\u003d\u0027blueprintPage\u0027]/div/div[2]/div[2]/accordion/div/div[1]/div/div[2]/div/div[55]/div/div[2]/div[1]/span}\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat com.rl.qa.views.PetclinicCreateDeployViews.ClickOnLaunchAppDeployTemp(PetclinicCreateDeployViews.java:125)\n\tat com.rl.qa.steps.PetclinicCreateDeploySteps.iClickOnLauchButtonOfAppDeployDemoTemplate(PetclinicCreateDeploySteps.java:63)\n\tat ✽.And I click on lauch button of AppDeployDemo template(src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature:20)\n",
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "I click on lauch button of AppDeployDemo template",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnLauchButtonOfAppDeployDemoTemplate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I select value in \"RL_Customer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RL_Customer",
+                  "offset": 19
+                }
+              ],
+              "location": "PetclinicCreateDeploySteps.iSelectValueIn(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I select \"Sensu Prod\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sensu Prod",
+                  "offset": 10
+                }
+              ],
+              "location": "PetclinicCreateDeploySteps.iSelectValue(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I click on the ok button at the end",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnTheOkButtonAtTheEnd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I click On close",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnClose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I click on Infrastructure",
+            "match": {
+              "location": "AppDeloySteps.i_click_on_Infrastructure()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I click on instances",
+            "match": {
+              "location": "AppDeloySteps.i_click_on_instances()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I click on edit of instance",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnEditOfInstance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I enter \"Deploy_petclinic\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deploy_petclinic",
+                  "offset": 9
+                }
+              ],
+              "location": "PetclinicCreateDeploySteps.iEnterValue(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I clicked Save",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickedSave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I click on instance control panel",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnInstanceControlPanel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I click Actionhistory",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickActionhistory()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 32,
+                "value": "#     Then verify status true or not"
+              }
+            ],
+            "line": 33,
+            "name": "I hit on close",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iHitOnClose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I move the cursor on \"Menu\" optn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Menu",
+                  "offset": 22
+                }
+              ],
+              "location": "AppDeloySteps.iMoveTheCursorOnOptn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I click on RL_Customer",
+            "match": {
+              "location": "AppDeloySteps.i_click_on_RL_Customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I click on Applications",
+            "match": {
+              "location": "AppDeloySteps.i_click_on_Applications()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I clicked Orchestration",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickedOrchestration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "I click on edit button of Deploy petclinic",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnEditButtonOfDeployPetclinic()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I click on DeployPetclinic,click on button",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnDeployPetclinicClickOnButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I click on update",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnUpdate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I click on BOTS",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnBOTS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I enter \"Deploy Petclinic\" Deploy Petclinic",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deploy Petclinic",
+                  "offset": 9
+                }
+              ],
+              "location": "PetclinicCreateDeploySteps.iEnterDeployPetclinic(String)"
+            },
+            "matchedColumns": [
+              13
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I hit on execute opt",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iHitOnExecuteOpt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I select n put \"NexusServer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NexusServer",
+                  "offset": 16
+                }
+              ],
+              "location": "PetclinicCreateDeploySteps.iSelectNPut(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "I select on \"petclinic\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "petclinic",
+                  "offset": 13
+                }
+              ],
+              "location": "PetclinicCreateDeploySteps.iSelectOnValue(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "I select on the \"org.catalyst\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "org.catalyst",
+                  "offset": 17
+                }
+              ],
+              "location": "PetclinicCreateDeploySteps.iSelectOnTheValue(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "I select \"petclinic\" val",
+            "match": {
+              "arguments": [
+                {
+                  "val": "petclinic",
+                  "offset": 10
+                }
+              ],
+              "location": "PetclinicCreateDeploySteps.iSelectVal(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I select \"48\" opt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "48",
+                  "offset": 10
+                }
+              ],
+              "location": "PetclinicCreateDeploySteps.iSelectOpt(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 49,
+                "value": "#      And I enter \"\u003cURI\u003e\" val"
+              }
+            ],
+            "line": 50,
+            "name": "I get the host ip",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iGetTheHostIp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "I hit on the Ok",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iHitOnTheOk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "I click On close optn",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iClickOnCloseOptn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "I enter the urlport",
+            "match": {
+              "location": "PetclinicCreateDeploySteps.iEnterTheUrlport()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@mouse"
+          }
+        ]
+      }
+    ],
+    "name": "As a user Create,launch and Deploy Petclinic",
+    "description": "",
+    "id": "as-a-user-create,launch-and-deploy-petclinic",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@mouse"
+      }
+    ]
+  }
+]

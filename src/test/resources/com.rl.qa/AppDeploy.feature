@@ -49,5 +49,5 @@
 
       Examples:
         |password           |username   |url                              |Environment|Monitoring|RepoServer |Repo    |GrpId       |Artifacts|Versions |Jobtype  |Jobname   |cookbook               |
-        |superadmin@123     |superadmin |http:neocatalyst.rlcatalyst.com/ |RL_Customer|None      |NexusServer|catalyst|org.catalyst|D4D      | 3.03.105|Chef     |AppDeploy |deploy_upgrade_catalyst|
+        |superadmin@123     |superadmin |http:neocatalyst.rlcatalyst.com/ |RL_Customer|None      |NexusServer|catalyst|org.catalyst|D4D      | 3.04.157|Chef     |AppDeploy |deploy_upgrade_catalyst|
 

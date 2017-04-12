@@ -32,7 +32,7 @@ Feature:As a user design a SoftwareTrack Blueprint
     And I click on "WORKZONE"
     And I click on "infrastructure" option
     And I click on the "Blueprints"
-    Then I verify software stack blueprint is created <"BluePrintname">
+#    Then I verify software stack blueprint is created <"BluePrintname">
 
     Examples:
       |password           |username   |url                               |OS       |Provider   |Image          |Region                       |KeyPair     |vpc                                     |Subnet                                     |Instance     |InstanceLunch|Organisation|BluePrintname|Businessgroup|Project|SecurityGroup|

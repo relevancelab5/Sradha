@@ -54,4 +54,4 @@ Feature: As a user Create,launch and Deploy Petclinic
 
 Examples:
   |password           |username   |url                               |Botname              |value   |Environment|Monitoring|Editname      |RepoServer |Repository|GrpId       |Artifact|Version|Bot             |
-  |superadmin@123     |superadmin |http:neocatalyst.rlcatalyst.com/  |Build_Petclinic_Nexus |03.01.21|RL_Customer|Sensu Prod|Deploy_petclinic|NexusServer|petclinic |org.catalyst|petclinic|48  |Deploy Petclinic|
+  |superadmin@123     |superadmin |http://neocatalyst.rlcatalyst.com/  |Build_Petclinic_Nexus |03.01.21|RL_Customer|Sensu Prod|Deploy_petclinic|NexusServer|petclinic |org.catalyst|petclinic|48  |Deploy Petclinic|

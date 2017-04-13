@@ -36,4 +36,4 @@ Feature:As a user design a SoftwareTrack Blueprint
 
     Examples:
       |password           |username   |url                               |OS       |Provider   |Image          |Region                       |KeyPair     |vpc                                     |Subnet                                     |Instance     |InstanceLunch|Organisation|BluePrintname|Businessgroup|Project|SecurityGroup|
-      |superadmin@123     |superadmin |http:neocatalyst.rlcatalyst.com/ |Ubuntu   | AWS_N.Cal |Ubuntu_N.C14.04 |US West (N. California)    |bootstrapncal| vpc-bd815ad8 (10.0.0.0/16) RL_DemoSetup|subnet-d7df258e (us-west-1b)                |t2.micro     |      1       |    RL      | RL_catt      | Product      |Catalyst |sg-eeff688b  |
+      |superadmin@123     |superadmin |http://neocatalyst.rlcatalyst.com/ |Ubuntu   | AWS_N.Cal |Ubuntu_N.C14.04 |US West (N. California)    |bootstrapncal| vpc-bd815ad8 (10.0.0.0/16) RL_DemoSetup|subnet-d7df258e (us-west-1b)                |t2.micro     |      1       |    RL      | RL_catt      | Product      |Catalyst |sg-eeff688b  |

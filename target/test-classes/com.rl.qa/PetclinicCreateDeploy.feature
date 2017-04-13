@@ -5,23 +5,23 @@ Feature: As a user Create,launch and Deploy Petclinic
         And I enter  "<username>" on User name text box
         And I enter "<password>"  on Password testbox
         And I click on Login button
-        And I click on BOTS
-        And I enter "<Botname>" in searchbox
-        And I click on Execute
-    # And I enter "<value>" in edit parameter
-        And I Click on the ok button
-        And I click on the close
+#        And I click on BOTS
+#        And I enter "<Botname>" in searchbox
+#        And I click on Execute
+#    # And I enter "<value>" in edit parameter
+#        And I Click on the ok button
+#        And I click on the close
         And I click on "WORKZONE"
         And I move the cursor on "Menu" optn
         And I click on RL_Customer
         And I click on Applications
-        And I click on Infrastructure
-        And I click on Blueprint option
-        And I click on lauch button of AppDeployDemo template
-        And I select value in "<Environment>"
-        And I select "<Monitoring>" value
-        And I click on the ok button at the end
-        And I click On close
+#        And I click on Infrastructure
+#        And I click on Blueprint option
+#        And I click on lauch button of AppDeployDemo template
+#        And I select value in "<Environment>"
+#        And I select "<Monitoring>" value
+#        And I click on the ok button at the end
+#        And I click On close
         And I click on Infrastructure
         And I click on instances
         And I click on edit of instance
@@ -54,4 +54,4 @@ Feature: As a user Create,launch and Deploy Petclinic
 
 Examples:
   |password           |username   |url                               |Botname              |value   |Environment|Monitoring|Editname      |RepoServer |Repository|GrpId       |Artifact|Version|Bot             |
-  |superadmin@123     |superadmin |http:neocatalyst.rlcatalyst.com/  |Build_Petclinic_Nexus |03.01.21|RL_Customer|Sensu Prod|Deploy_petclinic|NexusServer|petclinic |org.catalyst|petclinic|48  |Deploy Petclinic|
+  |superadmin@123     |superadmin |http://neocatalyst.rlcatalyst.com/  |Build_Petclinic_Nexus |03.01.21|RL_Customer|Sensu Prod|Deploy_petclinic|NexusServer|petclinic |org.catalyst|petclinic|48  |Deploy Petclinic|

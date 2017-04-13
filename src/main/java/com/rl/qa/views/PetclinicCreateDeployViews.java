@@ -117,8 +117,8 @@ public class PetclinicCreateDeployViews {
 
     public static void ClickOnLaunchAppDeployTemp() {
         try {
-            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[@id='blueprintPage']/div/div[2]/div[2]/accordion/div/div[1]/div/div[2]/div/div[56]/div/div[2]/div[1]/span/../../../div[2]/div[1]/span", 8, SeleniumUtilities.OBJWAITTIMEOUT);
-            SeleniumUtil.click("xpath", ".//*[@id='blueprintPage']/div/div[2]/div[2]/accordion/div/div[1]/div/div[2]/div/div[56]/div/div[2]/div[1]/span/../../../div[2]/div[1]/span", SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[text()='AppDelpoy-Demo']/following::div[3]/span", 8, SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath", ".//*[text()='AppDelpoy-Demo']/following::div[3]/span", SeleniumUtilities.OBJWAITTIMEOUT);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOnLaunchAppDeployTemp");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -208,6 +208,7 @@ public class PetclinicCreateDeployViews {
         try {
             SeleniumUtil.waitForElementIsClickable("xpath", ".//*[@class='btn cat-btn-save']", 8, SeleniumUtilities.OBJWAITTIMEOUT);
             SeleniumUtil.click("xpath", ".//*[@class='btn cat-btn-save']", SeleniumUtilities.OBJWAITTIMEOUT);
+            Thread.sleep(2000);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOnSave");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -217,10 +218,11 @@ public class PetclinicCreateDeployViews {
 
     public static void ClickOnControlpanel() {
         try {
-            SeleniumUtil.waitForElementIsClickable("xpath", "(.//*[@class='btn dropdown-toggle']/../../../../div[5]/div[9]/div/button)[1]", 8, SeleniumUtilities.OBJWAITTIMEOUT);
-            SeleniumUtil.click("xpath", "(.//*[@class='btn dropdown-toggle']/../../../../div[5]/div[9]/div/button)[1]", SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[text()='Deploy_petclinic']/following::div[7]/div[9]/div/button", 8, SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath", ".//*[text()='Deploy_petclinic']/following::div[7]/div[9]/div/button", SeleniumUtilities.OBJWAITTIMEOUT);
             Thread.sleep(2000);
             SeleniumUtil.click("xpath", ".//*[@id='cardView']/div[1]/div/div[5]/div[9]/div/ul/li[1]", SeleniumUtilities.OBJWAITTIMEOUT);
+            Thread.sleep(2000);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOnControlpanel");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -410,7 +412,7 @@ public class PetclinicCreateDeployViews {
         try {
             SeleniumUtil.waitForElementIsClickable("xpath", ".//*[@class='btn cat-btn-update']", 8, SeleniumUtilities.OBJWAITTIMEOUT);
             SeleniumUtil.click("xpath", ".//*[@class='btn cat-btn-update']", SeleniumUtilities.OBJWAITTIMEOUT);
-            Thread.sleep(50000);
+            Thread.sleep(60000);
         } catch (Exception ex) {
             BaseView.takeScreenshot("HitOnTheOk");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());

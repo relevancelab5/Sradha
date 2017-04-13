@@ -93,7 +93,7 @@ public class AppDeployViews {
 
     public static void ClickOnRl_Customer() {
         try{
-            SeleniumUtil.waitForElementIsClickable("xpat",".//*[@id='aa20c605-b493-4993-8167-756efa7ccfa7']",8, SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementIsClickable("xpat",".//*[@id='aa20c605-b493-4993-8167-756efa7ccfa7']",10, SeleniumUtilities.OBJWAITTIMEOUT);
             SeleniumUtil.click("xpath",".//*[@id='aa20c605-b493-4993-8167-756efa7ccfa7']",SeleniumUtilities.OBJWAITTIMEOUT);
             Thread.sleep(10000);
         }

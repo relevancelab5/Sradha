@@ -108,6 +108,7 @@ public class PetclinicCreateDeployViews {
         try {
             SeleniumUtil.waitForElementIsClickable("xpath", ".//*[@id='myTab3']/li[1]/ul/li[2]/a", 8, SeleniumUtilities.OBJWAITTIMEOUT);
             SeleniumUtil.click("xpath", ".//*[@id='myTab3']/li[1]/ul/li[2]/a", SeleniumUtilities.OBJWAITTIMEOUT);
+            Thread.sleep(2000);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOnBlueprint");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -117,8 +118,8 @@ public class PetclinicCreateDeployViews {
 
     public static void ClickOnLaunchAppDeployTemp() {
         try {
-            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[text()='AppDelpoy-Demo']/following::div[3]/span", 8, SeleniumUtilities.OBJWAITTIMEOUT);
-            SeleniumUtil.click("xpath", ".//*[text()='AppDelpoy-Demo']/following::div[3]/span", SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[@id='blueprintPage']/div/div[2]/div[2]/accordion/div/div[1]/div/div[2]/div/div[57]/div/ul/li[2]/u/b/following::div[3]/span", 8, SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath", ".//*[@id='blueprintPage']/div/div[2]/div[2]/accordion/div/div[1]/div/div[2]/div/div[57]/div/ul/li[2]/u/b/following::div[3]/span", SeleniumUtilities.OBJWAITTIMEOUT);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOnLaunchAppDeployTemp");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());

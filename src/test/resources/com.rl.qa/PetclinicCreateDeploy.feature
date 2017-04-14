@@ -50,7 +50,7 @@ Feature: As a user Create,launch and Deploy Petclinic
         And I get the host ip
         And I hit on the Ok
         And I click On close optn
-        And I enter the urlport
+#        And I enter the urlport
 
 Examples:
   |password           |username   |url                               |Botname              |value   |Environment|Monitoring|Editname      |RepoServer |Repository|GrpId       |Artifact|Version|Bot             |

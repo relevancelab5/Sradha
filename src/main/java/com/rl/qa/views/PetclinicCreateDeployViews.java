@@ -222,6 +222,7 @@ public class PetclinicCreateDeployViews {
             SeleniumUtil.waitForElementIsClickable("xpath", ".//*[text()='Deploy_petclinic']/following::div[7]/div[9]/div/button", 8, SeleniumUtilities.OBJWAITTIMEOUT);
             SeleniumUtil.click("xpath", ".//*[text()='Deploy_petclinic']/following::div[7]/div[9]/div/button", SeleniumUtilities.OBJWAITTIMEOUT);
             Thread.sleep(2000);
+            SeleniumUtil.waitForElementIsClickable("xpath",".//*[@id='cardView']/div[1]/div/div[5]/div[9]/div/ul/li[1]",8,SeleniumUtilities.OBJWAITTIMEOUT);
             SeleniumUtil.click("xpath", ".//*[@id='cardView']/div[1]/div/div[5]/div[9]/div/ul/li[1]", SeleniumUtilities.OBJWAITTIMEOUT);
             Thread.sleep(2000);
         } catch (Exception ex) {

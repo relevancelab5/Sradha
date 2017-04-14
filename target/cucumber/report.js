@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "line": 58,
+  "line": 57,
   "name": ": First create ,launch and deploy petclinic",
   "description": "",
   "id": "as-a-user-create,launch-and-deploy-petclinic;:-first-create-,launch-and-deploy-petclinic;;2",
@@ -28,7 +28,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 4,
-  "name": "I Login to catalyst using \"http:neocatalyst.rlcatalyst.com/\"",
+  "name": "I Login to catalyst using \"http://neocatalyst.rlcatalyst.com/\"",
   "matchedColumns": [
     2
   ],
@@ -77,7 +77,7 @@ formatter.step({
   "comments": [
     {
       "line": 11,
-      "value": "#     And I enter \"\u003cvalue\u003e\" in edit parameter"
+      "value": "# And I enter \"\u003cvalue\u003e\" in edit parameter"
     }
   ],
   "line": 12,
@@ -192,7 +192,7 @@ formatter.step({
   "comments": [
     {
       "line": 32,
-      "value": "#     Then verify status true or not"
+      "value": "# Then verify status true or not"
     }
   ],
   "line": 33,
@@ -296,7 +296,7 @@ formatter.step({
   "comments": [
     {
       "line": 49,
-      "value": "#      And I enter \"\u003cURI\u003e\" val"
+      "value": "# And I enter \"\u003cURI\u003e\" val"
     }
   ],
   "line": 50,
@@ -321,14 +321,14 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "http:neocatalyst.rlcatalyst.com/",
+      "val": "http://neocatalyst.rlcatalyst.com/",
       "offset": 27
     }
   ],
   "location": "BlueprintSteps.i_Login_to_catalyst_using(String)"
 });
 formatter.result({
-  "duration": 34756081964,
+  "duration": 31176413853,
   "status": "passed"
 });
 formatter.match({
@@ -341,7 +341,7 @@ formatter.match({
   "location": "BlueprintSteps.iEnterOnUserNameTextBox(String)"
 });
 formatter.result({
-  "duration": 30281008092,
+  "duration": 30339497641,
   "status": "passed"
 });
 formatter.match({
@@ -354,21 +354,21 @@ formatter.match({
   "location": "BlueprintSteps.iEnterOnPasswordTestbox(String)"
 });
 formatter.result({
-  "duration": 30186322598,
+  "duration": 30643751697,
   "status": "passed"
 });
 formatter.match({
   "location": "BlueprintSteps.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 3418235469,
+  "duration": 3246953485,
   "status": "passed"
 });
 formatter.match({
   "location": "PetclinicCreateDeploySteps.iClickOnBOTS()"
 });
 formatter.result({
-  "duration": 308787486,
+  "duration": 13446367278,
   "status": "passed"
 });
 formatter.match({
@@ -381,29 +381,30 @@ formatter.match({
   "location": "PetclinicCreateDeploySteps.iEnterInSearchbox(String)"
 });
 formatter.result({
-  "duration": 43152742360,
+  "duration": 41483949868,
   "status": "passed"
 });
 formatter.match({
   "location": "PetclinicCreateDeploySteps.iClickOnExecute()"
 });
 formatter.result({
-  "duration": 16445118645,
+  "duration": 457127841,
   "status": "passed"
 });
 formatter.match({
   "location": "PetclinicCreateDeploySteps.iClickOnTheOkButton()"
 });
 formatter.result({
-  "duration": 14974449330,
+  "duration": 15253240984,
   "status": "passed"
 });
 formatter.match({
   "location": "PetclinicCreateDeploySteps.iClickOnTheClose()"
 });
 formatter.result({
-  "duration": 4414144583,
-  "status": "passed"
+  "duration": 4009937250,
+  "error_message": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027sse0051-GA-78LMT-S2\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.4.0-72-generic\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: driver.version: BrowserDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d35.0, platform\u003dLINUX, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: c26b11b1-de2a-4792-80a9-782c6af8c8c9\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:341)\n\tat com.rl.qa.browsers.BrowserDriver.takeScreenshot(BrowserDriver.java:65)\n\tat com.rl.qa.utils.BaseView.takeScreenshot(BaseView.java:154)\n\tat com.rl.qa.views.PetclinicCreateDeployViews.ClickOntheclose(PetclinicCreateDeployViews.java:101)\n\tat com.rl.qa.steps.PetclinicCreateDeploySteps.iClickOnTheClose(PetclinicCreateDeploySteps.java:53)\n\tat ✽.And I click on the close(src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature:13)\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused (Connection refused)\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)\n\tat org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:341)\n\tat com.rl.qa.browsers.BrowserDriver.takeScreenshot(BrowserDriver.java:65)\n\tat com.rl.qa.utils.BaseView.takeScreenshot(BaseView.java:154)\n\tat com.rl.qa.views.PetclinicCreateDeployViews.ClickOntheclose(PetclinicCreateDeployViews.java:101)\n\tat com.rl.qa.steps.PetclinicCreateDeploySteps.iClickOnTheClose(PetclinicCreateDeploySteps.java:53)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:34)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\n\tat cucumber.runtime.Utils.invoke(Utils.java:30)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:297)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)\n\tat org.junit.runners.Suite.runChild(Suite.java:127)\n\tat org.junit.runners.Suite.runChild(Suite.java:26)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat org.junit.runners.Suite.runChild(Suite.java:127)\n\tat org.junit.runners.Suite.runChild(Suite.java:26)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:89)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:40)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:94)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:160)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)\nCaused by: java.net.ConnectException: Connection refused (Connection refused)\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:589)\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)\n\t... 79 more\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -415,8 +416,7 @@ formatter.match({
   "location": "BlueprintSteps.iClickOn(String)"
 });
 formatter.result({
-  "duration": 2430451293,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -428,43 +428,37 @@ formatter.match({
   "location": "AppDeloySteps.iMoveTheCursorOnOptn(String)"
 });
 formatter.result({
-  "duration": 8697542700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AppDeloySteps.i_click_on_RL_Customer()"
 });
 formatter.result({
-  "duration": 13316653472,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AppDeloySteps.i_click_on_Applications()"
 });
 formatter.result({
-  "duration": 974561434,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AppDeloySteps.i_click_on_Infrastructure()"
 });
 formatter.result({
-  "duration": 503264512,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PetclinicCreateDeploySteps.iClickOnBlueprintOption()"
 });
 formatter.result({
-  "duration": 821888276,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PetclinicCreateDeploySteps.iClickOnLauchButtonOfAppDeployDemoTemplate()"
 });
 formatter.result({
-  "duration": 704882001,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -476,8 +470,7 @@ formatter.match({
   "location": "PetclinicCreateDeploySteps.iSelectValueIn(String)"
 });
 formatter.result({
-  "duration": 31514868448,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -489,23 +482,19 @@ formatter.match({
   "location": "PetclinicCreateDeploySteps.iSelectValue(String)"
 });
 formatter.result({
-  "duration": 30228359557,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PetclinicCreateDeploySteps.iClickOnTheOkButtonAtTheEnd()"
 });
 formatter.result({
-  "duration": 291100148557,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "PetclinicCreateDeploySteps.iClickOnClose()"
 });
 formatter.result({
-  "duration": 2014819043,
-  "error_message": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027sse0051-GA-78LMT-S2\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.4.0-72-generic\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: driver.version: BrowserDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d35.0, platform\u003dLINUX, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 31896d32-f225-4bfa-85cc-c240d74e75a0\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:341)\n\tat com.rl.qa.browsers.BrowserDriver.takeScreenshot(BrowserDriver.java:65)\n\tat com.rl.qa.utils.BaseView.takeScreenshot(BaseView.java:154)\n\tat com.rl.qa.views.PetclinicCreateDeployViews.ClickOnClose(PetclinicCreateDeployViews.java:176)\n\tat com.rl.qa.steps.PetclinicCreateDeploySteps.iClickOnClose(PetclinicCreateDeploySteps.java:81)\n\tat ✽.And I click On close(src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature:24)\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused (Connection refused)\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)\n\tat org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:341)\n\tat com.rl.qa.browsers.BrowserDriver.takeScreenshot(BrowserDriver.java:65)\n\tat com.rl.qa.utils.BaseView.takeScreenshot(BaseView.java:154)\n\tat com.rl.qa.views.PetclinicCreateDeployViews.ClickOnClose(PetclinicCreateDeployViews.java:176)\n\tat com.rl.qa.steps.PetclinicCreateDeploySteps.iClickOnClose(PetclinicCreateDeploySteps.java:81)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:34)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\n\tat cucumber.runtime.Utils.invoke(Utils.java:30)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:297)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)\n\tat org.junit.runners.Suite.runChild(Suite.java:127)\n\tat org.junit.runners.Suite.runChild(Suite.java:26)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat org.junit.runners.Suite.runChild(Suite.java:127)\n\tat org.junit.runners.Suite.runChild(Suite.java:26)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:89)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:40)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:94)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:160)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)\nCaused by: java.net.ConnectException: Connection refused (Connection refused)\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:589)\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)\n\t... 79 more\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AppDeloySteps.i_click_on_Infrastructure()"

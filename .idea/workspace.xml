@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23c2efce-db95-48b9-8b00-f8110e9f1a01" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rl/qa/views/AppDeployViews.class" afterPath="$PROJECT_DIR$/target/classes/com/rl/qa/views/AppDeployViews.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/rl/qa/views/PetclinicCreateDeployViews.class" afterPath="$PROJECT_DIR$/target/classes/com/rl/qa/views/PetclinicCreateDeployViews.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rl/qa/views/AppDeployViews.java" afterPath="$PROJECT_DIR$/src/main/java/com/rl/qa/views/AppDeployViews.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rl/qa/views/PetclinicCreateDeployViews.java" afterPath="$PROJECT_DIR$/src/main/java/com/rl/qa/views/PetclinicCreateDeployViews.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com.rl.qa/PetclinicCreateDeploy.feature" afterPath="$PROJECT_DIR$/target/test-classes/com.rl.qa/PetclinicCreateDeploy.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature" afterPath="$PROJECT_DIR$/src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PetclinicCreateDeploy.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature">
+      <file leaf-file-name="AppDeployViews.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rl/qa/views/AppDeployViews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="259">
+              <caret line="96" column="88" lean-forward="false" selection-start-line="96" selection-start-column="88" selection-end-line="96" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -52,17 +50,37 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/rl/qa/steps/PetclinicCreateDeploySteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="139">
-              <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+              <caret line="104" column="42" lean-forward="false" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PetclinicCreateDeployViews.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PetclinicCreateDeployViews.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/rl/qa/views/PetclinicCreateDeployViews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="120" column="188" lean-forward="false" selection-start-line="120" selection-start-column="188" selection-end-line="120" selection-end-column="188" />
+            <state relative-caret-position="149">
+              <caret line="274" column="63" lean-forward="true" selection-start-line="274" selection-start-column="63" selection-end-line="274" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PetclinicCreateDeploy.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDeloySteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rl/qa/steps/AppDeloySteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -144,9 +162,9 @@
         <option value="$PROJECT_DIR$/src/test/resources/com.rl.qa/CatalystBotCreateDeploy.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/com.rl.qa/Blueprint.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/com/rl/qa/views/AppDeployViews.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rl/qa/views/PetclinicCreateDeployViews.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rl/qa/views/AppDeployViews.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature" />
       </list>
     </option>
   </component>
@@ -249,8 +267,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,7 +432,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,30 +475,6 @@
       <option name="GLUE" value="com.rl.qa.steps" />
       <option name="myNameFilter" value="" />
       <option name="myGeneratedName" value="Feature: PetclinicCreateDeploy" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="catalyst-Test" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Feature: AppDeploy" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/com.rl.qa/AppDeploy.feature" />
-      <option name="GLUE" value="com.rl.qa.steps" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: AppDeploy" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -560,6 +554,30 @@
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="catalyst-Test" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: : First create ,launch and deploy petclinic" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature" />
+      <option name="GLUE" value="com.rl.qa.steps" />
+      <option name="myNameFilter" value="^\: First create \,launch and deploy petclinic$" />
+      <option name="myGeneratedName" value="Scenario: : First create ,launch and deploy petclinic" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^\: First create \,launch and deploy petclinic$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -817,18 +835,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: PetclinicCreateDeploy" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: AppDeploy" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PetclinicCreateDeployRunner" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FirstRunner" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: Blueprint" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PetclinicCreateDeployRunner" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstRunner" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: Blueprint" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: : First create ,launch and deploy petclinic" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: PetclinicCreateDeploy" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PetclinicCreateDeployRunner" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: Blueprint" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstRunner" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: AppDeploy" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: : First create ,launch and deploy petclinic" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PetclinicCreateDeployRunner" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: Blueprint" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -846,25 +864,22 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.13 at 15h 25m 36s.xml">
+    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.14 at 09h 59m 42s.xml">
       <configuration name="Feature: PetclinicCreateDeploy" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.13 at 15h 25m 42s.xml">
+    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.14 at 10h 35m 35s.xml">
       <configuration name="Feature: PetclinicCreateDeploy" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.13 at 15h 32m 14s.xml">
+    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.14 at 11h 40m 55s.xml">
       <configuration name="Feature: PetclinicCreateDeploy" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.13 at 15h 41m 56s.xml">
+    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.14 at 11h 46m 21s.xml">
       <configuration name="Feature: PetclinicCreateDeploy" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.13 at 15h 42m 19s.xml">
+    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.14 at 11h 58m 53s.xml">
       <configuration name="Feature: PetclinicCreateDeploy" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.13 at 16h 02m 18s.xml">
-      <configuration name="Feature: PetclinicCreateDeploy" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.13 at 16h 23m 27s.xml">
+    <history-entry file="Feature__PetclinicCreateDeploy - 2017.04.14 at 12h 09m 09s.xml">
       <configuration name="Feature: PetclinicCreateDeploy" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="FirstRunner - 2017.04.11 at 15h 57m 56s.xml">
@@ -874,6 +889,9 @@
       <configuration name="PetclinicCreateDeployRunner" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PetclinicCreateDeployRunner - 2017.04.11 at 17h 59m 00s.xml">
+      <configuration name="PetclinicCreateDeployRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PetclinicCreateDeployRunner - 2017.04.14 at 09h 56m 00s.xml">
       <configuration name="PetclinicCreateDeployRunner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -905,7 +923,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30199203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30677292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1146,13 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com.rl.qa/AppDeploy.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/com.rl.qa/CatalystBotCreateDeploy.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/rl/qa/steps/FirstRunner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1211,13 +1222,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1833">
           <caret line="218" column="27" lean-forward="true" selection-start-line="218" selection-start-column="27" selection-end-line="218" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rl/qa/views/BlueprintViews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4740">
+        <state relative-caret-position="915">
           <caret line="326" column="23" lean-forward="false" selection-start-line="326" selection-start-column="23" selection-end-line="326" selection-end-column="23" />
           <folding />
         </state>
@@ -1225,32 +1235,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rl/qa/steps/BlueprintSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="889">
-          <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+        <state relative-caret-position="147">
+          <caret line="170" column="28" lean-forward="true" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com.rl.qa/AppDeploy.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rl/qa/steps/AppDeloySteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="147">
+          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rl/qa/views/AppDeployViews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="259">
           <caret line="96" column="88" lean-forward="false" selection-start-line="96" selection-start-column="88" selection-end-line="96" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1258,15 +1268,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rl/qa/steps/PetclinicCreateDeploySteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
-          <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <caret line="104" column="42" lean-forward="false" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rl/qa/views/PetclinicCreateDeployViews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="120" column="188" lean-forward="false" selection-start-line="120" selection-start-column="188" selection-end-line="120" selection-end-column="188" />
+        <state relative-caret-position="149">
+          <caret line="274" column="63" lean-forward="true" selection-start-line="274" selection-start-column="63" selection-end-line="274" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com.rl.qa/PetclinicCreateDeploy.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
           <folding />
         </state>
       </provider>

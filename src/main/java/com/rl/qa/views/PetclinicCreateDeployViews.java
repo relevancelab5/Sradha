@@ -118,8 +118,8 @@ public class PetclinicCreateDeployViews {
 
     public static void ClickOnLaunchAppDeployTemp() {
         try {
-            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[@id='blueprintPage']/div/div[2]/div[2]/accordion/div/div[1]/div/div[2]/div/div[57]/div/ul/li[2]/u/b/following::div[3]/span", 8, SeleniumUtilities.OBJWAITTIMEOUT);
-            SeleniumUtil.click("xpath", ".//*[@id='blueprintPage']/div/div[2]/div[2]/accordion/div/div[1]/div/div[2]/div/div[57]/div/ul/li[2]/u/b/following::div[3]/span", SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[text()='AppDelpoy-Demo']/following::div[2]/div[1]/span", 8, SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath", ".//*[text()='AppDelpoy-Demo']/following::div[2]/div[1]/span", SeleniumUtilities.OBJWAITTIMEOUT);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOnLaunchAppDeployTemp");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -235,6 +235,7 @@ public class PetclinicCreateDeployViews {
         try {
             SeleniumUtil.waitForElementIsClickable("xpath", ".//*[contains(@title,'Action History')]", 8, SeleniumUtilities.OBJWAITTIMEOUT);
             SeleniumUtil.click("xpath", ".//*[contains(@title,'Action History')]", SeleniumUtilities.OBJWAITTIMEOUT);
+            Thread.sleep(2000);
         } catch (Exception ex) {
             BaseView.takeScreenshot("ClickOnActionhistory");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
@@ -318,8 +319,8 @@ public class PetclinicCreateDeployViews {
 
     public static void HitOnExecute() {
         try {
-            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[@class='fa fa-play font-size-20']", 8, SeleniumUtilities.OBJWAITTIMEOUT);
-            SeleniumUtil.click("xpath", ".//*[@class='fa fa-play font-size-20']", SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[@class='margin10 cursor']", 8, SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath", ".//*[@class='margin10 cursor']", SeleniumUtilities.OBJWAITTIMEOUT);
         } catch (Exception ex) {
             BaseView.takeScreenshot("HitOnExecute");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());

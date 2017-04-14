@@ -8,7 +8,7 @@ Feature: As a user Create,launch and Deploy Petclinic
         And I click on BOTS
         And I enter "<Botname>" in searchbox
         And I click on Execute
-    # And I enter "<value>" in edit parameter
+#        And I enter "<value>" in edit parameter
         And I Click on the ok button
         And I click on the close
         And I click on "WORKZONE"

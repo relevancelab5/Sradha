@@ -320,8 +320,8 @@ public class PetclinicCreateDeployViews {
 
     public static void HitOnExecute() {
         try {
-            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[@class='margin10 cursor']", 8, SeleniumUtilities.OBJWAITTIMEOUT);
-            SeleniumUtil.click("xpath", ".//*[@class='margin10 cursor']", SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.waitForElementIsClickable("xpath", ".//*[contains(@style,'margin-top:5px;')]", 8, SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.click("xpath", ".//*[contains(@style,'margin-top:5px;')]", SeleniumUtilities.OBJWAITTIMEOUT);
         } catch (Exception ex) {
             BaseView.takeScreenshot("HitOnExecute");
             SeleniumUtil.Log.info("Error :" + ex.getMessage());
